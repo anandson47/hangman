@@ -1,0 +1,14 @@
+.guessed-letters{
+    border-radius: 10px;
+    margin:10px;
+    border:1px solid teal;
+    width:35%;
+    height: 98%;
+}
+
+.guessed-container{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    height: auto;
+}
