@@ -1,0 +1,12 @@
+.inputBox{
+    border-radius: 8px;
+    border:2px solid teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:98%;
+    max-width: 1200px;
+    min-height: 100px;
+    margin:15px;
+}

@@ -1,8 +1,9 @@
 import "./letters.css";
 
-const Letters=({letter})=>{
+const Letters=({letter , input, visible=true , onLetterClick})=>{
+
     return(
-    <div className="letter">
+    <div onClick={onLetterClick} className={`letter ${input?'input':""}`} style={{visibility:`${visible?"visible":"hidden"}`}}>
         {letter}
     </div>
     )
