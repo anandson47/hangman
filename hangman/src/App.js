@@ -16,7 +16,6 @@ function App() {
   const [disable , setDisable] = useState(false)
   const [success , setSuccess]= useState(false)
   const [chances, setChances]=useState(0)
-  let wordRef=useRef()
   const [currentWord,setCurrentWord]=useState(WORDS[Math.floor(Math.random()*WORDS.length)]);
   const onInputClick=(event)=>{
     if(guessedLetters.includes(event.target.innerText.toUpperCase())){
@@ -33,18 +32,13 @@ function App() {
     else if(eqSet(wordSet , new Set(currentWord.toUpperCase().split("")))){
       setSuccess(true)
     }
-    console.log(eqSet(new Set([...guessedLetters,event.target.innerText.toUpperCase()]) , new Set(currentWord.toUpperCase().split(""))))
     setGuessedLetters([...guessedLetters,event.target.innerText.toUpperCase()])  
     
   }
 
   const eqSet = (xs, ys) =>
-    {
-      console.log(xs , ys)
-      return (
     xs.size === ys.size &&
-    [...xs].every((x) => ys.has(x))) ;
-    }
+    [...xs].every((x) => ys.has(x))
 
 
   const onResetClick=()=>{
