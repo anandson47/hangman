@@ -25,10 +25,12 @@ function App() {
     else{
       setErrorMessage("")
     }
+
+    let wordSet=new Set([...guessedLetters,event.target.innerText.toUpperCase()].filter(val=>currentWord.toUpperCase().includes(val)))
     if(!currentWord.includes(event.target.innerText.toLowerCase())){
       setChances(chances+1)
     }
-    else if(eqSet(new Set([...guessedLetters,event.target.innerText.toUpperCase()]) , new Set(currentWord.toUpperCase().split("")))){
+    else if(eqSet(wordSet , new Set(currentWord.toUpperCase().split("")))){
       setSuccess(true)
     }
     console.log(eqSet(new Set([...guessedLetters,event.target.innerText.toUpperCase()]) , new Set(currentWord.toUpperCase().split(""))))
