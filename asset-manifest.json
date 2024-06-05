@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hangman/hangman/static/css/main.e8542bad.css",
-    "main.js": "/hangman/hangman/static/js/main.b237dc6f.js",
-    "static/js/453.035fcce8.chunk.js": "/hangman/hangman/static/js/453.035fcce8.chunk.js",
-    "static/media/logo.svg": "/hangman/hangman/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/hangman/hangman/index.html",
-    "main.e8542bad.css.map": "/hangman/hangman/static/css/main.e8542bad.css.map",
-    "main.b237dc6f.js.map": "/hangman/hangman/static/js/main.b237dc6f.js.map",
-    "453.035fcce8.chunk.js.map": "/hangman/hangman/static/js/453.035fcce8.chunk.js.map"
+    "main.css": "/hangman/hangman/build/static/css/main.e8542bad.css",
+    "main.js": "/hangman/hangman/build/static/js/main.596fa3de.js",
+    "static/js/453.035fcce8.chunk.js": "/hangman/hangman/build/static/js/453.035fcce8.chunk.js",
+    "static/media/logo.svg": "/hangman/hangman/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hangman/hangman/build/index.html",
+    "main.e8542bad.css.map": "/hangman/hangman/build/static/css/main.e8542bad.css.map",
+    "main.596fa3de.js.map": "/hangman/hangman/build/static/js/main.596fa3de.js.map",
+    "453.035fcce8.chunk.js.map": "/hangman/hangman/build/static/js/453.035fcce8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8542bad.css",
-    "static/js/main.b237dc6f.js"
+    "static/js/main.596fa3de.js"
   ]
 }
