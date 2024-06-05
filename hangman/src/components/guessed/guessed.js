@@ -1,7 +1,6 @@
 import Letters from "../letters/letters";
 import "./guessed.css"
 const Guessed=({letters=[]})=>{
-    console.log(letters)
     return(
         
         <div className="guessed-letters">
